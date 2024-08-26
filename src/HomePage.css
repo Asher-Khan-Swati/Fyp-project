@@ -1,0 +1,107 @@
+/* HomePage.css */
+
+.home-container {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  background-color: #f4f4f9;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.home-header {
+  background-color: green;
+  color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.home-header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.home-header p {
+  font-size: 1.2rem;
+  margin: 10px 0 20px;
+}
+
+.home-nav {
+  margin: 20px 0;
+}
+
+.nav-button {
+  text-decoration: none;
+  color: #fff;
+  background-color: #28a745;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 0 10px;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.nav-button:hover {
+  background-color: #218838;
+}
+
+.home-main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.card h2 {
+  margin-top: 0;
+  font-size: 1.8rem;
+  color: #007bff;
+}
+
+.card-description {
+  font-size: 1rem;
+  color: #555;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.stat-item {
+  text-align: center;
+  flex: 1;
+}
+
+.stat-item h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.stat-value {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.activity-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.activity-list li {
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}

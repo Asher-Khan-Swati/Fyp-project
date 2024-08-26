@@ -1,0 +1,60 @@
+/* src/AddNewDriver.css */
+
+.add-new-driver {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  .add-new-driver h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .form-group input.error {
+    border-color: #98ff11;
+  }
+  
+  .error-message {
+    color: #3af800;
+    font-size: 0.875em;
+    margin-top: 5px;
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #27ee05;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #71fe06;
+  }
+  

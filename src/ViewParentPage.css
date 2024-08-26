@@ -1,0 +1,25 @@
+/* ViewParentPage.css */
+
+.view-parent-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.view-parent-header {
+  margin-bottom: 20px;
+}
+
+.view-parent-main {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.parent-details {
+  line-height: 1.6;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+}

@@ -1,0 +1,68 @@
+/* Container for the entire edit driver page */
+.edit-driver-container {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header styling */
+  .edit-driver-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .edit-driver-header h1 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  /* Main section styling */
+  .edit-driver-main {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Form styling */
+  .edit-driver-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Label styling */
+  .edit-driver-form label {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  /* Input and select styling */
+  .edit-driver-form input,
+  .edit-driver-form select {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+  }
+  
+  /* Button styling */
+  .edit-driver-form button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color:green;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Button hover effect */
+  .edit-driver-form button:hover {
+    background-color: #0056b3;
+  }
+  

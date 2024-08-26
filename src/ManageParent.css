@@ -1,0 +1,68 @@
+/* ManageParent.css */
+
+.manage-parents-container {
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  }
+  
+  .manage-parents-header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .manage-parents-main {
+    margin-top: 20px;
+  }
+  
+  .parents-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .parents-table th, .parents-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .parents-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .nav-button,  .view, .edit, .delete {
+    margin-right: 10px;
+  }
+  
+  
+  .parentbutton {
+    background-color:green;
+    color: white;
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin-top: 15px;
+    
+  }
+  
+  .view {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  .edit {
+    background-color: #FFC107;
+    color: black;
+  }
+  
+  .delete {
+    background-color: #F44336;
+    color: white;
+  }
+  

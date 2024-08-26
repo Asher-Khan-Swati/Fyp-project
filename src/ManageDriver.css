@@ -1,0 +1,102 @@
+.manage-drivers-container {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .manage-drivers-header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .manage-drivers-header h1 {
+    margin: 0;
+  }
+  
+  .manage-drivers-header p {
+    margin: 10px 0 0;
+  }
+  
+  .add-driver-button {
+    background-color: #fff;
+    color: #4CAF50;
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin-top: 15px;
+  }
+  
+  .add-driver-button:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .manage-drivers-main {
+    padding: 20px;
+  }
+  
+  .drivers-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .drivers-table th, .drivers-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .drivers-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .action-button {
+    background-color: #fff;
+    color: #4CAF50;
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-right: 5px;
+    font-size: 0.9em;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .action-button.edit {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .action-button.edit:hover {
+    background-color: #45a049;
+  }
+  
+  .action-button.delete {
+    background-color:greenyellow;
+    color: white;
+  }
+  .edit{
+    background-color: #45a049;
+    color: white;
+  }
+  .delete{
+    background-color: red;
+    color: white;
+  }
+  .view{
+
+    background-color: blue;
+    color: white;
+  }
+  
+  .action-button.delete:hover {
+    background-color: greenyellow;
+  }
